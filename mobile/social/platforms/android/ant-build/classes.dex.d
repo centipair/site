@@ -1,0 +1,27 @@
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes.dex : \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowserDialog.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$4$1.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$1.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/statusbar/StatusBar$2.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/com/ionicframework/starter/R$drawable.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/com/ionicframework/starter/R$string.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/com/ionicframework/starter/BuildConfig.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/com/ionicframework/starter/R.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/com/ionicframework/starter/R$attr.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/com/ionicframework/starter/R$xml.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/classes/com/ionicframework/starter/HelloCordova.class \
+/home/devasia/workspace/centipair/core/mobile/social/platforms/android/ant-build/dexedLibs/classes-780f99a9ac018d93b5cafe59c4fca3cf.jar \
