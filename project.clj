@@ -19,7 +19,8 @@
                  [crypto-random "1.2.0"]
                  [ring/ring-json "0.3.1"]
                  [cheshire "5.3.1"]
-                 [hiccup "1.0.5"]]
+                 [hiccup "1.0.5"]
+                 [clj-http "0.9.1"]]
 
   :repl-options {:init-ns core.repl}
   :plugins [[lein-ring "0.8.10"]
@@ -31,7 +32,7 @@
   {:uberjar {:aot :all}
    :production {:ring {:open-browser? false
                        :stacktraces?  false
-                       :auto-reload?  false}}
+                       :auto-reload?  true}}
    :dev {:dependencies [[ring-mock "0.1.5"]
                         [ring/ring-devel "1.2.1"]]
          :env {:dev true}}}

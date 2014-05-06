@@ -1,5 +1,56 @@
-{%extends "core/views/templates/base.html"%}
-{%block content%}
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{{STATIC_URL}}assets/img/favicon.png">
+    
+    <title>Centipair | IT Services & Consulting | Enterprise Solutions | Mobile Devlopment | Outsourcing </title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'> 
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    {% style "/css/custom.css" %}
+    {% script "/js/angular.js"%}
+    {% script "/js/angular-route.js"%}
+    {% script "/js/app.js"%}
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="{{STATIC_URL}}https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="{{STATIC_URL}}https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><b>[C]</b> Centipair Technologies Private Limited</a><br/>
+	  
+        </div>
+      </div>
+    </div>
+    <div ng-controller="NotifierCtrl" class="notify [{notifier.class}]" ng-show="notifier.show"  ng-cloak>
+      [{notifier.message}]
+    </div>
+
     <div id="headerwrap">
       <div class="container">
 	<div class="row"  id="banner-1">
@@ -106,5 +157,19 @@
       </div><!-- /row -->
     </div><!-- /container -->
     
+    <div class="container">
+      <hr>
+      <p class="centered">Centipair Technologies Private Limited - 2014</p>
+      <hr>
+      
+    </div><!-- /container -->
     
-{%endblock%}
+    <input type="hidden" value="{{csrfmiddlewaretoken}}" id="csrfmiddlewaretoken"/>
+    <!-- Bootstrap core JavaScript
+	 ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="{{STATIC_URL}}assets/js/bootstrap.min.js"></script>
+    <script src="{{STATIC_URL}}assets/js/script.js"></script>
+  </body>
+</html>
