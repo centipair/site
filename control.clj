@@ -4,7 +4,7 @@
   ]
   :ssh-options "-p 827" )
 
-(def production-code-path "/home/devasia/webapps/core")
+(def production-code-path "/home/devasia/webapps/site")
 
 (deftask :date "echo date on cluster"  []
   (ssh "date"))
@@ -16,4 +16,5 @@
   (ssh 
    (run 
     (cd production-code-path 
+        (run "git reset --hard")
         (run "git pull origin master")))))

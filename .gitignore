@@ -40,3 +40,4 @@ test_data.json
 local_settings.py
 logs/
 lock
+.nrepl-port
