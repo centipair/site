@@ -10,9 +10,8 @@
   (ssh "date"))
 
 (deftask :deploy 
-  "Deploys code to server"
+  "Deploys code to server from git repo"
   []
-  ;;(local "git push origin master")
   (ssh 
    (run 
     (cd production-code-path 

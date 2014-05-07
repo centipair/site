@@ -6,4 +6,4 @@
 
 ;; Will connect to localhost
 (client/connect! ["127.0.0.1"])
-(use-keyspace "core")
+(use-keyspace "centipair")

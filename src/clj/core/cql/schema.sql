@@ -2,8 +2,8 @@
 
 /*Key space*/
 /*Use your keyspace name*/
-CREATE KEYSPACE core WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
-USE core;
+CREATE KEYSPACE centipair WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
+USE centipair;
 /*users*/
 CREATE TABLE user_account (user_id timeuuid PRIMARY KEY, username text, email text, password text, first_name text, last_name text, active boolean);
 CREATE TABLE user_profile (user_id timeuuid PRIMARY KEY, first_name text, middle_name text, last_name text, email text, website text, phone_mobile text, phone_fixed text,
