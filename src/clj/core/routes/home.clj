@@ -31,6 +31,9 @@
   (destroy-session)
   (response/redirect "/"))
 
+(defn google-verify [] 
+  (layout/render "google755bae6b0a2344b4.html"))
+
 (defroutes home-routes
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
@@ -39,4 +42,5 @@
   (GET "/login" [] (login-page))
   (POST "/login/submit" request (login-submit request))
   (GET "/logout" [] (logout))
+  (GET "/google755bae6b0a2344b4.html" [] (google-verify))
   )
