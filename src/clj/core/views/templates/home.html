@@ -20,9 +20,6 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'> 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     {% style "/css/custom.css" %}
-    {% script "/js/angular.js"%}
-    {% script "/js/angular-route.js"%}
-    {% script "/js/app.js"%}
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,9 +43,6 @@
 	  
         </div>
       </div>
-    </div>
-    <div ng-controller="NotifierCtrl" class="notify [{notifier.class}]" ng-show="notifier.show"  ng-cloak>
-      [{notifier.message}]
     </div>
 
     <div id="headerwrap">
@@ -164,12 +158,9 @@
       
     </div><!-- /container -->
     
-    <input type="hidden" value="{{csrfmiddlewaretoken}}" id="csrfmiddlewaretoken"/>
     <!-- Bootstrap core JavaScript
 	 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="{{STATIC_URL}}assets/js/bootstrap.min.js"></script>
-    <script src="{{STATIC_URL}}assets/js/script.js"></script>
+    
   </body>
 </html>
