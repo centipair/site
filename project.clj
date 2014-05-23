@@ -38,6 +38,6 @@
          :env {:dev true}}}
   :immutant {:context-path "/"
              :nrepl-port 11111
-             :virtual-host "centipair.com"
+             :virtual-host "www.centipair.com"
              }
   :min-lein-version "2.0.0")
